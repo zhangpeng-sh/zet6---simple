@@ -1,0 +1,21 @@
+Dependencies for Project 'LCD', Target 'Debug_RAM': (DO NOT MODIFY !)
+F (.\main.c)(0x5F1C63B7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F10x_FWLib\inc -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\SYSTEM -I..\SRC\HARDWARE\LCD -I..\SRC\SYSTEM -I..\SRC\SYSTEM\delay-I "C:\Users\Administrator\Desktop\zet6 - simple\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DVECT_TAB_RAM -DSTM32F10X_HD-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\SRC\SYSTEM\sys.h)(0x5F14938B)
+I (..\SRC\HARDWARE\LCD\lcd.h)(0x5F1C5F83)
+I (..\USER\stm32F10x.h)(0x5EF80E9E)
+I (..\SRC\SYSTEM\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\SRC\HARDWARE\LCD\lcd.c)(0x5F1C63F3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F10x_FWLib\inc -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\SYSTEM -I..\SRC\HARDWARE\LCD -I..\SRC\SYSTEM -I..\SRC\SYSTEM\delay-I "C:\Users\Administrator\Desktop\zet6 - simple\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DVECT_TAB_RAM -DSTM32F10X_HD-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+I (..\SRC\HARDWARE\LCD\lcd.h)(0x5F1C5F83)
+I (..\USER\stm32F10x.h)(0x5EF80E9E)
+I (..\SRC\SYSTEM\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SRC\SYSTEM\sys.h)(0x5F14938B)
+I (..\SRC\SYSTEM\delay\delay.h)(0x5F06DA82)
+F (..\SRC\SYSTEM\delay\delay.c)(0x5F1849E2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F10x_FWLib\inc -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\SYSTEM -I..\SRC\HARDWARE\LCD -I..\SRC\SYSTEM -I..\SRC\SYSTEM\delay-I "C:\Users\Administrator\Desktop\zet6 - simple\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DVECT_TAB_RAM -DSTM32F10X_HD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SRC\SYSTEM\sys.h)(0x5F14938B)
+I (..\SRC\HARDWARE\LCD\lcd.h)(0x5F1C5F83)
+I (..\USER\stm32F10x.h)(0x5EF80E9E)
+I (..\SRC\SYSTEM\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\SRC\SYSTEM\startup_stm32f10x_md.s)(0x5EF81218)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Users\Administrator\Desktop\zet6 - simple\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)

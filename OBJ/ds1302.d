@@ -1,0 +1,17 @@
+..\obj\ds1302.o: ..\HARDWARE\ds1302.c
+..\obj\ds1302.o: ..\SYSTEM\sys.h
+..\obj\ds1302.o: ..\USER\stm32f10x.h
+..\obj\ds1302.o: ..\SYSTEM\core_cm3.h
+..\obj\ds1302.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ds1302.o: ..\HARDWARE\adc.h
+..\obj\ds1302.o: ..\SYSTEM\sys.h
+..\obj\ds1302.o: ..\HARDWARE\d5026.h
+..\obj\ds1302.o: ..\HARDWARE\ds1302.h
+..\obj\ds1302.o: ..\HARDWARE\key.h
+..\obj\ds1302.o: ..\HARDWARE\LCD\lcd.h
+..\obj\ds1302.o: ..\HARDWARE\remote.h
+..\obj\ds1302.o: ..\HARDWARE\stmflash.h
+..\obj\ds1302.o: ..\HARDWARE\switch.h
+..\obj\ds1302.o: ..\HARDWARE\timer.h
+..\obj\ds1302.o: ..\USER\config.h
+..\obj\ds1302.o: ..\SYSTEM\delay\delay.h

@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+"..\obj\main.o"
+"..\obj\lcd.o"
+"..\obj\delay.o"
+"..\obj\startup_stm32f10x_md.o"
+--strict --scatter ".\SRAM_ต๗สิ - c8.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LCD.map" -o ..\OBJ\LCD.axf
